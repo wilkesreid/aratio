@@ -36,3 +36,11 @@ aratio(element);
 
 var elements = document.querySelectorAll(".my-class");
 aratio(elements);
+```
+
+### Resulting HTML
+```
+<div style="position: relative; height: 0px; padding-bottom: 56.25%;">
+    <div id="my-element" class="my-class" aspect-ratio="16x9" style="position: absolute; width: 100%; height: 100%;">...</div>
+</div>
+```

@@ -11,7 +11,7 @@ function affect(el) {
     el.style.position = 'absolute';
     el.style.width = '100%';
     el.style.height = '100%';
-    el.objectFit = 'cover';
+    el.style.objectFit = 'cover';
     
     el.parentNode.replaceChild(newParent, el);
     newParent.append(el);

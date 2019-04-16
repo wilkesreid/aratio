@@ -1,6 +1,6 @@
 {
   "name": "aratio",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Wrap an element in a container to force it to a specific aspect ratio.",
   "main": "index.js",
   "scripts": {

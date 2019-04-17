@@ -1,6 +1,6 @@
 {
   "name": "aratio",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Wrap an element in a container to force it to a specific aspect ratio.",
   "keywords": [
     "aspect", 

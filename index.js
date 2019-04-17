@@ -1,6 +1,6 @@
 function affect(el) {
     var aspect_ratio_parts = el.attributes.getNamedItem('aspect-ratio').value.split('x').map(function(i) {
-        return parseInt(i)
+        return parseFloat(i)
     });
 
     var newParent = document.createElement('div');

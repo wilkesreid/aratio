@@ -35,7 +35,7 @@ module.exports = function aratio(el) {
     } 
 
     // Handle single HTML elements
-    else if (el.constructor == HTMLBodyElement) {
+    else if (el instanceof Element) {
         affect(el);
     }
 }

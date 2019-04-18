@@ -4,6 +4,7 @@ function affect(el) {
     });
 
     var newParent = document.createElement('div');
+    newParent.classList = 'aratio-container';
     newParent.style.position = 'relative';
     newParent.style.height = '0';
     newParent.style.paddingBottom = (aspect_ratio_parts[1] / aspect_ratio_parts[0] * 100) + '%';

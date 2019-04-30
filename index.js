@@ -15,7 +15,7 @@ function affect(el) {
     el.style.objectFit = 'cover';
     
     el.parentNode.replaceChild(newParent, el);
-    newParent.append(el);
+    newParent.appendChild(el);
 }
 
 module.exports = function aratio(el) {
